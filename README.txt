@@ -1,6 +1,6 @@
 safinim.com by SAFINIM
 Copyright (c) @safinim
-MIT license (safinim.com/license)
+CCA 3.0 license (safinim.com/license)
 
 
 Safinim's business/corporate site. 
