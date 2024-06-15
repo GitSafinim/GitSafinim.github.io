@@ -10,6 +10,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="images/site.webmanifest">
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -185,16 +190,17 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<h3>Get In Touch</h3>
-								<form>
+								<form action="https://formspree.io/f/xyyrrbng" method="POST">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<input type="text" name="name" id="name" placeholder="Name" required="" />
 										</div>
 										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="email" name="_replyto" id="email" placeholder="E-mail" required="" />
 										</div>
 										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+											<textarea name="message" id="message" placeholder="Message" required="" rows="5"></textarea>
+											<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
 										</div>
 										<div class="col-12">
 											<ul class="actions">
@@ -210,16 +216,16 @@
 					<!-- Icons -->
 						<ul class="icons">
 							<li><a href="https://x.com" class="icon brands fa-x"><span class="label">x-twitter</span></a></li>
-							<li><a href=""https://facebook.com"" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://facebook.com" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="https://github.com/GitSafinim" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href=""https://linkedin.com"" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href=""https://instagram.com"" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://linkedin.com" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://instagram.com" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						</ul>
 
 					<!-- Copyright -->
 						<div class="copyright">
 							<ul class="menu">
-								<li>&copy; Copyright © 2024 Safinim International. All Rights Reserved.</li><li>Design: <a href="https://safinim.com">SAFINIM</a></li>
+								<li>&copy; Copyright © 2024 Safinim International. All Rights Reserved.</li><li>Design: <a href="https://safinim.com">Safinim Labs</a></li>
 							</ul>
 						</div>
 
