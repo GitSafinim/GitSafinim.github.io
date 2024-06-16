@@ -2140,6 +2140,13 @@ input, select, textarea {
 			font-weight: 900;
 		}
 
+		.icon-svg {
+		    width: 1em;
+		    height: 1em;
+		    fill: currentColor; /* Permette all'icona di adottare il colore del testo corrente */
+		    vertical-align: middle; /* Allinea verticalmente l'icona al centro */
+		}
+
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
