@@ -193,16 +193,17 @@
 							</section>
 							<section class="col-6 col-12-narrower">
 								<h3>Get In Touch</h3>
-								<form>
+								<form action="https://formspree.io/f/xyyrrbng" method="POST">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<input type="text" name="Name" id="name" placeholder="Name" required="" />
 										</div>
 										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="email" name="Replyto" id="email" placeholder="E-mail" required="" />
 										</div>
 										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+											<textarea name="Message" id="message" placeholder="Message" required="" rows="5"></textarea>
+											<input type="hidden" name="Subject" id="email-subject" value="Contact Form Submission">
 										</div>
 										<div class="col-12">
 											<ul class="actions">
