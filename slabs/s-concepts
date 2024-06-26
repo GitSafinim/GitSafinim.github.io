@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>	
-		<title>Home - SAFINIM</title>
+		<title>S-LABS - SAFINIM</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,27 +22,27 @@
 				<nav id="nav">
 					<ul>
 						<li>
-							<a class="current" href="layouts" class="hover-underline-animation">LAYOUTS</a>
+							<a class="current" href="s-labs" class="hover-underline-animation">S-LABS</a>
 						<ul>
-							<li><a href="layouts/left-sidebar" class="hover-underline-animation">LEFT SIDEBAR</a></li>
-							<li><a href="layouts/right-sidebar" class="hover-underline-animation">RIGHT SIDEBAR</a></li>
-							<li class="current"><a href="layouts/no-sidebar" class="hover-underline-animation">NO SIDEBAR</a></li>
+							<li><a href="s-labs/left-sidebar" class="hover-underline-animation">LEFT SIDEBAR</a></li>
+							<li><a href="s-labs/right-sidebar" class="hover-underline-animation">RIGHT SIDEBAR</a></li>
+							<li><a href="s-labs/no-sidebar" class="hover-underline-animation">NO SIDEBAR</a></li>
 							<li>
-								<a href="layouts/submenu.html" class="hover-underline-animation">SUBMENU</a>
+								<a href="s-labs/s-concepts" class="hover-underline-animation">S-CONCEPTS</a>
 								<ul>
-									<li><a href="layouts/submenu/option1" class="hover-underline-animation">OPTION 1</a></li>
-									<li><a href="layouts/submenu/option1" class="hover-underline-animation">OPTION 2</a></li>
-									<li><a href="layouts/submenu/option1" class="hover-underline-animation">OPTION 3</a></li>
-									<li><a href="layouts/submenu/option1" class="hover-underline-animation">OPTION 4</a></li>
+									<li><a href="s-labs/s-concepts/cars" class="hover-underline-animation">CARS</a></li>
+									<li><a href="s-labs/s-concepts/inter-jerseys" class="hover-underline-animation">INTER JERSEYS</a></li>
+									<li><a href="s-labs/s-concepts/armours" class="hover-underline-animation">ARMOURS</a></li>
+									<li><a href="s-labs/s-concepts/ue-flags" class="hover-underline-animation">UE FLAGS</a></li>
 								</ul>
 							</li>
 						</ul>
 						</li>
-						<li><a href="labs" class="hover-underline-animation">S-LABS</a></li>
-						<li><a href="elements.html" class="hover-underline-animation">ELEMENTS</a></li>
+						<li><a href="s-labs" class="hover-underline-animation">S-LABS</a></li>
+						<li><a href="elements" class="hover-underline-animation">ELEMENTS</a></li>
 					</ul>
 				</nav>
-				<h7 id="contact"><a href="contact-us" class="button primary">CONTACT US</a></h7>
+				<h7 id="contact-us"><a href="contact-us" class="button primary">CONTACT US</a></h7>
 			</header>
 
 			<!-- Banner -->
