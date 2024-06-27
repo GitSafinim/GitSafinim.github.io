@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<title>PRIVACY - SAFINIM</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="manifest" href="images/site.webmanifest">
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<!--<h1 id="logo"><a href="index.html">Landed</a></h1>-->
+				<li id="logo-container"><a href="./" class="hover-underline-animation" id="logo"><img src='images/logob.png' onmouseover="this.src='images/logo.png';" onmouseout="this.src='images/logob.png';" alt="Logo" /></a></li>
+				<nav id="nav">
+					<ul>
+						<li><a href="our-team" class="hover-underline-animation">Our Team</a></li>
+						<li>
+							<a href="what-we-do" class="hover-underline-animation">What We Do</a>
+						<ul>
+							<li><a href="what-we-do/our-vision" class="hover-underline-animation">Our Vision</a></li>
+							<li><a href="what-we-do/systematic-trading" class="hover-underline-animation">Systematic Trading</a></li>
+							<li>
+								<a href="what-we-do/s-labs" class="hover-underline-animation">S-Labs</a>
+							<ul>
+								<li><a href="what-we-do/s-labs/left-sidebar" class="hover-underline-animation">LEFT SIDEBAR</a></li>
+								<li><a href="what-we-do/s-labs/right-sidebar" class="hover-underline-animation">RIGHT SIDEBAR</a></li>
+								<li><a href="what-we-do/s-labs/no-sidebar" class="hover-underline-animation">NO SIDEBAR</a></li>
+								<li>
+									<a href="what-we-do/s-labs/s-concepts" class="hover-underline-animation">S-CONCEPTS</a>
+									<ul>
+										<li><a href="what-we-do/s-labs/s-concepts/cars" class="hover-underline-animation">CARS</a></li>
+										<li><a href="what-we-do/s-labs/s-concepts/inter-jerseys" class="hover-underline-animation">INTER JERSEYS</a></li>
+										<li><a href="what-we-do/s-labs/s-concepts/armours" class="hover-underline-animation">ARMOURS</a></li>
+										<li><a href="what-we-do/s-labs/s-concepts/ue-flags" class="hover-underline-animation">UE FLAGS</a></li>
+									</ul>
+								</li>
+							</ul>
+							</li>
+							<li><a href="what-we-do/puzzles" class="hover-underline-animation">Puzzles</a></li>
+							<li><a href="what-we-do/trips" class="hover-underline-animation">Trips</a></li>
+							<li><a href="what-we-do/news-and-insights" class="hover-underline-animation">News & Insights</a></li>
+						</ul>
+						</li>
+						<li><a href="careers" class="hover-underline-animation">Careers</a></li>
+					</ul>
+				</nav>
+				<h7 id="contact"><a href="contact-us" class="button primary">Contact Us</a></h7>
+			</header>
+
+			<!-- Banner -->
+			<section id="bannerp">
+			</section>
+
+			<!-- Main -->
+				<div style="margin-top:-5rem;margin-left:25%;margin-right:25%;font-family:Roboto,sans-serif;" id="main" class="wrapper style1">
+					<style>
+						h2, h3, p {
+							color:#cbb26a;
+						}
+					</style>
+					<div class="container">
+						<header class="major">
+							<h2>Privacy</h2>
+							<h3>Your privacy is our responsibility</h3>
+						</header>
+						<p>
+							We believe that trust is paramount in a relationship. We do not own or sell your data, and we most certainly do not bank on advertising-based business models.
+						</p>
+						<hr/>
+					</div>
+				</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="col-6 col-12-xsmall">
+				<ul class="icons">
+					<li>
+						<a href="https://x.com" target="_blank" rel="noopener noreferrer" class="icon brands">
+							<span class="label">X</span>
+							<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon-svg">
+								<path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/>
+							</svg>
+						</a>
+					</li>
+					<li><a href="https://github.com/gitSafinim/" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+					<li><a href="htttps://facebook.com" target="_blank" rel="noopener noreferrer" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://t.me" target="_blank" rel="noopener noreferrer" class="icon brands fa-telegram"><span class="label">Telegram</span></a></li>						
+				</ul>
+				</div>
+				<div class="copyright">
+					<ul class="menu">
+						<li><a href="privacy">Privacy</a></li><li><a href="terms-of-use">Terms of Use</a></li><li>Copyright &copy; 2024 Safinim LLC. All rights reserved.</li><li>Design: <a href="s-labs">Safinim Labs</li><li><a href="contact-us">Contact Us</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<script>
+			// When the user scrolls down 20px from the top of the document, slide down the navbar
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("header").style.top = "-120px";
+			  } else {
+				document.getElementById("header").style.top = "0";
+			  }
+			}
+			</script>
+
+</body>
+</html>
