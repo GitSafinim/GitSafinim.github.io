@@ -15,6 +15,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Inter");
 @import url("https://fonts.googleapis.com/css?family=Inter+Tight");
+@import url("https://fonts.googleapis.com/css?family=Instrument+Serif");
+@import url("https://fonts.googleapis.com/css?family=Poltawski+Nowy");
+@import url("https://fonts.googleapis.com/css?family=Prata");
+@import url("https://fonts.googleapis.com/css?family=Source+Serif+4");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, d1, d2, d3, blockquote,
@@ -3650,8 +3654,8 @@ footer {
 		}
 
 			#header nav ul li {
-				display: inline-block;
-				margin-left: 1rem;
+				display: inline-flex;
+				margin-left: 3rem;
 			}
 
 					#header nav ul li a, #header nav ul li span {
@@ -3680,7 +3684,7 @@ footer {
 						}
 
 						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
-							margin-right: 0.5em;
+							margin-right: -0.5em;
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
@@ -3873,12 +3877,13 @@ footer {
 
 	#bannerp {
 		background-attachment: fixed;
-		background-color: #000000;/*#272833;*/
+		background-color: #1c1d26; /*#000000; #272833;*/
 		background-image: url("../../images/privacy.jpg");
-		background-position: center center;
-		background-size: cover;
+		background-repeat: no-repeat;
+		/*background-position: -210vh -40vh;*/
+		background-size: contain;
 		box-shadow: 0 0em 0em 0 rgba(0, 0, 0, 0);
-		min-height: 100vh;
+		min-height: 40vh;
 		position: relative;
 		text-align: center;
 		z-index: 21;
@@ -3957,10 +3962,11 @@ footer {
 	background-attachment: fixed;
 	background-color: #000000;/*#272833;*/
 	background-image: url("../../images/termsofuse.webp");
-	background-position: center center;
+	background-repeat: no-repeat;
+	background-position: 100% -50vh;
 	background-size: cover;
 	box-shadow: 0 0em 0em 0 rgba(0, 0, 0, 0);
-	min-height: 100vh;
+	min-height: 10vh;
 	position: relative;
 	text-align: center;
 	z-index: 21;
@@ -3969,7 +3975,7 @@ footer {
 	#bannertou:before {
 		content: '';
 		display: inline-block;
-		height: 100vh;
+		height: 40vh;
 		vertical-align: middle;
 		width: 1%;
 	}
@@ -4138,6 +4144,31 @@ body.is-touch #bannercu {
 		font-family: "Playfair Display", serif;
 		color: #cbb26a !important;
 		margin-bottom: 0;
+	}
+
+/* Bannercontent */
+
+#bannercontent {
+	font-family: Inter, sans-serif;
+	/*color: #cbb26a !important;*/
+	color: #C7AE6A;
+	background: inherit;
+	font-weight: 400;
+	text-align: center;
+	padding: 4.5em 0 4.5em 0;
+	margin-bottom: 0;
+}
+
+	#bannercontent header > h2 {
+		font-family: "Playfair Display", serif;
+		color: #cbb26a !important;
+		margin-top: -2rem;
+	}
+
+	#bannercontent header > p {
+		font-family: "Playfair Display", serif;
+		color: #cbb26a !important;
+		margin-top: 4rem;
 	}
 
 /* Footer */
